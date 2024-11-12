@@ -1,3 +1,6 @@
+# Ignore
+secret.md
+
 # Logs
 logs
 *.log
