@@ -25,23 +25,39 @@
           <label class="form-label">
             <span class="label-text">First name</span>
             <input class="form-input" type="text" name="firstName" />
-            <svg width="12" height="12" class="icon-form">
+            <svg width="12" height="12" class="form-icon">
               <use href="./images/icons.svg#icon-person"></use>
             </svg>
           </label>
 
-          <label class="form-label">
-            <span class="label-text">Last name</span>
-            <input class="form-input" type="text" name="lastName" />
-            <svg width="18" height="24" class="icon-form">
+          <div class="form-input-group">
+            <label class="form-label" for="name">Name</label>
+            <input class="form-input" type="text" name="name" />
+            <svg width="12" height="12" class="form-icon">
+              <use href="./images/icons.svg#icon-person"></use>
+            </svg>
+          </div>
+
+          <div class="form-input-group">
+            <label class="form-label" for="email">Phone</label>
+            <input class="form-input" type="email" name="email" />
+            <svg width="13" height="12" class="form-icon">
+              <use href="./images/icons.svg#icon-mail"></use>
+            </svg>
+          </div>
+
+          <div class="form-input-group">
+            <label class="form-label" for="email">E-mail</label>
+            <input class="form-input" type="email" name="email" />
+            <svg width="16" height="12" class="form-icon">
               <use href="./images/icons.svg#icon-phone"></use>
             </svg>
-          </label>
+          </div>
 
           <button class="submit-button" type="submit">Submit</button>
         </form>
 
-        <div class="inputs">
+        <!-- <div class="inputs">
           <div class="boxes-wrap">
             <p class="modal-text">flex-wrap-row-gap</p>
             <p class="modal-text">flex-wrap-row-gap</p>
@@ -52,7 +68,7 @@
             <p class="modal-text">flex-nowrap-row-nogap</p>
             <p class="modal-text">flex-nowrap-row-nogap</p>
           </div>
-        </div>
+        </div> -->
       </div>
     </div>
   </body>
