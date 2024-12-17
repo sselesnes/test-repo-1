@@ -140,6 +140,15 @@ img {
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 0;
+  /* position: relative; */
+}
+
+.form-icon {
+  padding: 0;
+  margin: 0;
+  translate: 16px -25px;
+  /* top: 50%;
+  transform: translateY(-50%); */
 }
 
 .submit-button {
@@ -151,13 +160,4 @@ img {
   color: #fff;
   font-size: inherit;
   cursor: pointer;
-}
-
-.form-icon {
-  padding: 0;
-  margin: 0;
-  translate: 16px -25px;
-  /* left: 16px;
-  top: 50%;
-  transform: translateY(-50%); */
 }
